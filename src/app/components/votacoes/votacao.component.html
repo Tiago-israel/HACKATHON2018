@@ -1,0 +1,13 @@
+<div class="col-12 urna mt-2">
+    <div class="row">
+        <div class="col-4 jumbotron">
+           {{nome}}
+        </div>
+        <div class="col-8">
+            <h3>JUSTIÇA ELEITORAL</h3>
+            <input type="number" [(ngModel)]="numero" (keyup)="buscarCandidatos()" max="20" min="10" />
+            <button (click)="votar()">confirmar</button>
+            <button (click)="limpar()">limpar</button>
+        </div>
+    </div>
+</div>

@@ -1,5 +1,24 @@
 {
-    "candidatos": [],
-    "urnas": [],
-    "votacao": []
+  "candidatos": [
+    {
+      "nome": "Bolsonaro",
+      "cpf": "123",
+      "idade": "68",
+      "numero": 17,
+      "id": 1,
+      "quantidadeVotos": 12
+    },
+    {
+      "nome": "Ciro",
+      "cpf": "666",
+      "idade": "55",
+      "numero": 12,
+      "id": 2,
+      "quantidadeVotos": 5
+    },
+    {
+      "quantidadeVotos": 0,
+      "id": 3
+    }
+  ]
 }
